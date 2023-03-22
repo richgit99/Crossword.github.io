@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crossword</title>
+    <link rel="stylesheet" href="crossword.css">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+
+        <h1 style="font-family:'Courier New', Courier, monospace ;">Welcome to RSM Creations</h1>
+
+        <h1 style="color: black;font-family: sans-serif;">Mini Crossword <small style="font-size: small;" id="name">
+                &nbsp; by Richard . S . M</small></h1>
+
+
+
+    </header>
+
+
+    <br><br>
+
+
+    <div class="joker" style="width:100% ;display: flex;justify-content: center;justify-items: center
+;margin: 0 auto;">
+
+
+        <div class="container">
+
+            <div class="small_screen">
+                <div class="across">
+
+                    <h2>Across</h2>
+
+                    <p><b>1)</b> Each of the O's in XOXO</p>
+                    <p><b>4)</b> Divided Asian country</p>
+                    <p><b>6)</b> Ids on the library books</p>
+                    <p><b>7)</b> Biting, smug tone</p>
+                    <p><b>8)</b> Certain trig ratios</p>
+
+                </div>
+
+                <div class="down">
+
+                    <h2>Down</h2>
+
+                    <p><b>1)</b> ___ Mubarak, onetime Egyptian ruler</p>
+                    <p><b>2)</b> Word before legend and dictionary </p>
+                    <p><b>3)</b> Lietrature category</p>
+                    <p><b>4)</b> Each of the X's on the XOXO</p> <br>
+                    <p><b>5)</b> Questions</p>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="container_for_crossword">
+
+
+
+                <div class="first_row">
+
+                    <div><button style="background-color:black ;" id="col_1_1"></button></div>
+                    <div><button style="position: relative;" id="col_1_2">
+                            <div></div>
+                        </button></div>
+                    <div><button style="position: relative;" id="col_1_3">
+                            <div></div>
+                        </button></div>
+                    <div><button style="position: relative;" id="col_1_4">
+                            <div></div>
+                        </button></div>
+                    <div><button style="position: relative;" id="col_1_5">
+                            <div></div>
+                        </button></div>
+
+                </div>
+
+
+                <div class="second_row">
+
+
+                    <div><button style="position: relative;" id="col_2_1">
+                            <div></div>
+                        </button></div>
+                    <div><button id="col_2_2"></button></div>
+                    <div><button id="col_2_3"></button></div>
+                    <div><button id="col_2_4"></button></div>
+                    <div><button id="col_2_5"></button></div>
+
+                </div>
+
+                <div class="third_row">
+
+                    <div><button style="position: relative;" id="col_3_1">
+                            <div></div>
+                        </button></div>
+                    <div><button id="col_3_2"></button></div>
+                    <div><button id="col_3_3"></button></div>
+                    <div><button id="col_3_4"></button></div>
+                    <div><button id="col_3_5"></button></div>
+                </div>
+
+
+                <div class="fourth_row">
+
+                    <div><button style="position: relative;" id="col_4_1">
+                            <div></div>
+                        </button></div>
+                    <div><button id="col_4_2"></button></div>
+                    <div><button id="col_4_3"></button></div>
+                    <div><button id="col_4_4"></button></div>
+                    <div><button id="col_4_5"></button></div>
+
+                </div>
+
+
+
+                <div class="fifth_row">
+
+
+                    <div><button style="background-color:black ;" id="col_5_1"></button></div>
+                    <div><button style="position: relative;" id="col_5_2">
+                            <div></div>
+                        </button></div>
+                    <div><button id="col_5_3">
+                            <div></div>
+                        </button></div>
+                    <div><button id="col_5_4"></button></div>
+                    <div><button id="col_5_5"></button></div>
+
+                </div>
+            </div>
+
+
+            <br><br>
+
+            <div class="container_for_letters">
+
+                <button id="A">A</button>
+                <button id="B">B</button>
+                <button id="C">C</button>
+                <button id="D">D</button>
+                <button id="E">E</button>
+                <button id="F">F</button>
+                <button id="G">G</button>
+                <button id="H">H</button>
+                <button id="I">I</button>
+                <button id="J">J</button>
+                <button id="K">K</button>
+                <button id="L">L</button>
+                <button id="M">M</button>
+                <button id="N">N</button>
+                <button id="O">O</button>
+                <button id="P">P</button>
+                <button id="Q">Q</button>
+                <button id="R">R</button>
+                <button id="S">S</button>
+                <button id="T">T</button>
+                <button id="U">U</button>
+                <button id="V">V</button>
+                <button id="W">W</button>
+                <button id="X">X</button>
+                <button id="Y">Y</button>
+                <button id="Z">Z</button>
+                <button style="width:80% ;border: 0.1px solid black;">Click on button to use them</button>
+
+            </div>
+
+            <br><br>
+
+            <div id="last_buttons">
+
+                <button id="start_button">Start Game</button>
+                <button id="reset_button"><a href="#" style="text-decoration: none;color: black;">Reset
+                        values</a></button>
+                <button id="submit_button">Submit Game</button>
+            </div>
+
+
+            <br>
+
+
+        </div>
+    </div>
+    <br><br>
+    <!-- <br><br> -->
+
+    <div id="result_of_game">
+
+        <h2 id="result_sentence">
+
+
+            Result of the Game will be displayed here
+
+        </h2>
+
+    </div>
+
+    <br><br>
+    <script src="crossword.js"></script>
+</body>
+
+</html>
